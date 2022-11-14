@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form </title>
+
+</head>
+
+<body>
+    
+    <form>
+        <fieldset>
+            <h2>Personal Info</h2>
+            <br>
+            <label><b>Name</b></label>
+            <input type="text" placeholder="enter your name" >
+            <br>
+            <label><b>Phone No</b></label>
+            <br>
+            <input type="number">
+            <br>
+		<label><b>Enter Email</b></label>
+        <br>
+		<input type="email" placeholder="email address" >
+       <br>
+        <label><b>Password</b></label>
+        <br>
+        <input type="text" placeholder="password">
+        <br>
+        <label><b>CNIC</b></label>
+        <input type="number" pattern="[0-9]{5}-[0-9]{7}-[0-9]{1}" title="35201-1234567-1">
+        <br>
+        <label ><b>Date</b></label>
+         <input type="date"  >
+        <button>reset</button>
+       
+       <button class="b1"><b>Submit</b></button>
+
+        </fieldset>
+        <style style="text/css">
+        
+           fieldset{
+            width:50%;
+            height: 120vh;
+            margin: left 50px;
+            text-align:left;
+            background-color:#eef20c;
+            margin: 100px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+            
+         }
+        
+         input{
+            width: 30%;
+  padding: 12px 20px;
+  margin: 4px 0;
+  margin-left: 250px;
+  margin-top: 15px;
+  box-sizing: border-box;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; ;
+  background-color: white;
+  text-align: center;
+  
+        }
+     label{
+        margin-left: 250px;
+        
+        
+     }
+    button{
+        margin-left: 340px;
+        margin-top: 5px;
+    }
+     h2{
+        text-align: center;
+        
+     }
+     
+       .b1{
+        width: 30%;
+        height: 5vh;
+        margin-left: 250px;
+        margin-top: 20px;
+        background-color: #13a883;
+
+
+       }
+        </style>
+        
+    </form>
+    
+</body>
+</html>
